@@ -21,3 +21,13 @@ print(5==(2.5*2))
 # Segunda maior ordem: potenciação
 # 3 ordem: 
 #ultima ordem: soma e subtração
+
+print (5+3*2)
+print (3*5+4**2)
+print (3*(5+4)**2)
+
+# Pow (x,y) é para fazer uma potenciação
+
+print (pow (10,8))
+print (27**(1/3)) # <--Raiz cubica
+print ('='*5)
