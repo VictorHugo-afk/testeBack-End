@@ -1,1 +1,1 @@
-# Biblioteca math1
+import random
