@@ -1,1 +1,2 @@
-# Biblioteca math2
+import emoji
+print (emoji.emojize('Copa Do Mundo 😎'))
