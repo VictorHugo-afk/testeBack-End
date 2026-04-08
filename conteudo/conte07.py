@@ -11,3 +11,15 @@ print (frase.count('a', 2,10)) #Ele procura quantas letras o número de caracter
 print (frase.find ('desen')) #O find mostra a partir de qual indice aprece a pesquisa
 print (frase.find ('android')) #O resultado -1 indica que não tem essa sequencia no resultado
 print ('analise'in frase) #O in verifica se aquele conjunto está na variavel
+print (frase.replace ('analise', 'programação')) #Troca a palavra
+print (frase)
+print (frase.upper()) #Deixa as letras maiusculas
+print (frase.lower()) #Deixa as letras minusculas
+print (frase.capitalize()) #Deixa a primeira letra da primeira palavra maiuscula
+print (frase.title()) #Deixa a primeira letra das palavras em maisculas
+print (frase.strip ()) #Tira espaços
+print (frase.rstrip ()) #tirar o espaço do lado esquerdo
+print (frase.lstrip ()) #tirar o espaço do lado direito
+
+print (frase.split ()) #Vai transformar o valor da variavel em lista
+print ('¨'.join (frase)) #Une um simbolo em cada parte do split
