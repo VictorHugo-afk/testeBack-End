@@ -17,7 +17,10 @@
 #frase_modificada = frase.replace(" ", "*")
 #print(frase_modificada)
 
-frase = "A lógica é o princípio da sabedoria"
-resultado_split = frase.split()
-print(resultado_split[2])
+texto = "O aprendizado constante é a chave para o sucesso."
+palavra_procurada = "chave"
+
+posicao = texto.find(palavra_procurada)
+
+print(f"A posição da palavra é: {posicao}")
 
