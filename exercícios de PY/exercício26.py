@@ -1,2 +1,3 @@
-cidade = str(input('Qual o nome da sua cidade?')).strip()
-print (cidade[:5].upper() == 'Santo')
+cidade = str(input('Em que cidade você nasceu?')).strip()
+n1 = cidade.lower()
+print('santo' in n1)
