@@ -17,10 +17,58 @@
 #frase_modificada = frase.replace(" ", "*")
 #print(frase_modificada)
 
-texto = "O aprendizado constante é a chave para o sucesso."
-palavra_procurada = "chave"
+# texto = "O aprendizado constante é a chave para o sucesso."
+# palavra_procurada = "chave"
 
-posicao = texto.find(palavra_procurada)
+# posicao = texto.find(palavra_procurada)
 
-print(f"A posição da palavra é: {posicao}")
+# print(f"A posição da palavra é: {posicao}")
 
+# print('='*30)
+# print('BANCO CEV')
+# print('='*30)
+# valor = int(input('Que valor você quer sacar? R$ '))
+# total = valor
+# ced = 100
+# totalced = 0
+# while True:
+#     if total >= ced:
+#         total -= ced
+#         totalced += 1
+#     else:
+#         if totalced > 0:
+#             print(f'Total de {totalced} cédulas de R${ced}')
+#         if ced == 100:
+#             ced = 50
+#         elif ced == 50:
+#             ced = 5
+#         elif ced == 5:
+#             ced = 2
+#         elif ced == 2:
+#             ced = 1
+#         totalced = 0
+#         if total == 0:
+#             break
+# print('='*30)
+# print('VOLTE SEMPRE')
+
+n = 0
+c = 0
+multipli = 1
+q = 0
+s = 0
+while True:
+    n = int(input('Digite um número [757 para parar]: '))
+    c += 1
+    s += n
+    if n == 757:
+        multipli *= n 
+        q += 1
+    
+        break
+    multipli *= n
+    q += 1
+    
+
+print(f'A quantidade de números digitados foram {q} ')
+print(f'A multiplicação de todos incluindo o flag deu {multipli} ')
