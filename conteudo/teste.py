@@ -52,23 +52,37 @@
 # print('='*30)
 # print('VOLTE SEMPRE')
 
-n = 0
-c = 0
-multipli = 1
-q = 0
-s = 0
-while True:
-    n = int(input('Digite um número [757 para parar]: '))
-    c += 1
-    s += n
-    if n == 757:
-        multipli *= n 
-        q += 1
+# n = 0
+# c = 0
+# multipli = 1
+# q = 0
+# s = 0
+# while True:
+#     n = int(input('Digite um número [757 para parar]: '))
+#     c += 1
+#     s += n
+#     if n == 757:
+#         multipli *= n 
+#         q += 1
     
-        break
-    multipli *= n
-    q += 1
+#         break
+#     multipli *= n
+#     q += 1
     
 
-print(f'A quantidade de números digitados foram {q} ')
-print(f'A multiplicação de todos incluindo o flag deu {multipli} ')
+# print(f'A quantidade de números digitados foram {q} ')
+# print(f'A multiplicação de todos incluindo o flag deu {multipli} ')
+
+# import random
+# while True:
+#      n = int(input('Escolha um númro entre 0 a 9: '))
+#      nu = random.randint(0,9)
+#      if n==nu:
+#           print('Você ganhou')
+#           break
+#      else:
+#       print('Você perdeu')
+
+# texto = str(input('digite uma palavra: '))
+# quantidade = texto.lower().count('e')
+# print(f'A quantidade de letras e foi de: {quantidade}')
