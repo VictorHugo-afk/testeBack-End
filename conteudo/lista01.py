@@ -1,0 +1,5 @@
+# Variáveis compostas (Listas)
+
+# Diferente das tuplas as listas permitem alterações durante a execução. Para as listas utilizaremos colchetes. As listas permitem além de alterar valores, acrescentar novos. Para adicionarmos novos itens, iremos utilizar o método append('nome do item'). Este método adiciona o intem na posição do último indice da lista. Para adicionarmos itens em outras posições podemos utilizar o método insert(numero do indice, 'nome do item') jogando os outros itens pra direita refazendo a numeração.
+
+# Para apagarmos elementos de uma lista utilizamos o comando del + nome da lista e o número do item que desejamos apagar entre colchetes. Ou podemos utilizar o método pop, onde digitamos o nome da lista+ . + pop+(). Se não digitarmos nenhum número dentro dos pararênteses ele exclui o último ítem, se digitarmos algum número ele exclui o ítem que tem aquele índice. Outro método de exclusão é o remove, onde escrevemos o nome da lista + + remove('nome do item'). Quando você utiliza esses métodos a lista reorganiza os itens e a numeração de seus índices.
