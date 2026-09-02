@@ -3,3 +3,17 @@
 # Listas parte 2
 # Para mostrar-mos um item dentro de uma lista interna primeiro colocamos o índice da lista depois o índice do item dentro da lista. Ex print(pessoas[0][0]) irá mostrar 'pedro', print (pessoas[1][1] vai aparecer 19, print(pessoas [2][0]) vai aparecer joão, print(pessoas[1]) vai aparecer ['maria', 19]
 
+Teste = []
+Teste.append ('Victor')
+Teste.append (19)
+Galera = []
+# Galera.append (Teste)
+Galera.append (Teste [:])
+Teste [0] = 'Maria'
+Teste [1] = 22
+Galera.append (Teste [:])
+
+
+
+print (Teste)
+print (Galera)
