@@ -3,17 +3,31 @@
 # Listas parte 2
 # Para mostrar-mos um item dentro de uma lista interna primeiro colocamos o índice da lista depois o índice do item dentro da lista. Ex print(pessoas[0][0]) irá mostrar 'pedro', print (pessoas[1][1] vai aparecer 19, print(pessoas [2][0]) vai aparecer joão, print(pessoas[1]) vai aparecer ['maria', 19]
 
-Teste = []
-Teste.append ('Victor')
-Teste.append (19)
+# Teste = []
+# Teste.append ('Victor')
+# Teste.append (19)
+# Galera = []
+# # Galera.append (Teste)
+# Galera.append (Teste [:])
+# Teste [0] = 'Maria'
+# Teste [1] = 22
+# Galera.append (Teste [:])
+
+# print (Teste)
+# print (Galera)
+
+# Galera = [['joão',19], ['ana',33], ['joaquim',17], ['maria',45]]
+# print (Galera [2] [1])
+
+# for p in Galera:
+#     print (f'{p[0]} tem {p[1]} anos de idade')
+
 Galera = []
-# Galera.append (Teste)
-Galera.append (Teste [:])
-Teste [0] = 'Maria'
-Teste [1] = 22
-Galera.append (Teste [:])
-
-
-
-print (Teste)
+Dado = []
+Tomai = Tomen = 0
+for c in range (0,3):
+    Dado.append (str(input('nome ')))
+    Dado.append (int(input('idade ')))
+    Galera.append (Dado [:])
+    Dado.clear ()
 print (Galera)
