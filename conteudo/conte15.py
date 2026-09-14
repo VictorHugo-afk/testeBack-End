@@ -22,12 +22,35 @@
 # for p in Galera:
 #     print (f'{p[0]} tem {p[1]} anos de idade')
 
-Galera = []
-Dado = []
-Tomai = Tomen = 0
-for c in range (0,3):
-    Dado.append (str(input('nome ')))
-    Dado.append (int(input('idade ')))
-    Galera.append (Dado [:])
-    Dado.clear ()
-print (Galera)
+# Galera = [] #eu fiz
+# Dado = []
+# Tomai = Tomen = 0
+# for c in range (0,3):
+#     Dado.append (str(input('nome ')))
+#     Dado.append (int(input('idade ')))
+#     Galera.append (Dado [:])
+#     Dado.clear ()
+# print (Galera)
+
+# Galera = [] #professor fez
+# Dado = []
+# Tomai = Tomen = 0
+
+# for c in range(0, 3):
+#     Dado.append(str(input('Nome: ')))
+#     Dado.append(int(input('idade: ')))
+#     Galera.append(Dado[:]) # Cria uma cópia dos dados usando fatiamento
+#     Dado.clear()
+    
+# print(Galera)
+
+# for p in Galera:
+#     if p[1] >= 18:
+#         print(f'{p[0]} é maior de idade')
+#         Tomai += 1
+#     else:
+#         print(f'{p[0]} é menor de idade')
+#         Tomen += 1
+
+# print(f'Temos {Tomai} maiores de idade e {Tomen} menores de idade')
+
