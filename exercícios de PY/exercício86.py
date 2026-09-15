@@ -1,15 +1,32 @@
-Temp = []
-Princ = []
-Mai = Men = 0
+temp = []
+princ = []
+mai = men = 0
+
 while True:
-    Temp.append (str (input( 'no me ')))
-    Temp.append (float (input ('peso')))
-    if len (Princ) ==0:
-        Mai = Men = Temp[1]
+    temp.append(str(input('Nome: ')))
+    temp.append(float(input('Peso: ')))
+    
+    if len(princ) == 0:  # nenhum cadastro
+        mai = men = temp[1]
     else:
-        if Temp[1] > Mai:
-          Mai = Temp[1]
-        if Temp[1]< Men:
-            Men = Temp[1]
-        Princ.append (Temp [:])
-        Temp.clear()
+        if temp[1] > mai:
+            mai = temp[1]
+        if temp[1] < men:
+            men = temp[1]
+            
+    princ.append(temp[:])
+    temp.clear()
+    
+    resp = str(input('Quer continuar? ')).lower().strip()[0]
+    if resp == 'n':
+        break
+print (f'Os dados foram {princ}')
+print (f'Você cadastrou {len(princ)} pessoas')
+print (f'O maior foi de {mai} kg. Peso de', end= '')
+for p in princ:
+    if p [1] == mai:
+        print (f' {p[0]}', end= '')
+print (f' E o menor foi de {men} kg. Peso de', end= '')
+for p in princ:
+    if p [1] == men:
+        print (f' {p[0]}', end= '')
