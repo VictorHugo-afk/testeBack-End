@@ -86,3 +86,49 @@
 # texto = str(input('digite uma palavra: '))
 # quantidade = texto.lower().count('e')
 # print(f'A quantidade de letras e foi de: {quantidade}')
+
+# Lista para armazenar os dados de todas as pessoas
+# pessoas = []
+
+# # Loop para ler os dados de 4 pessoas
+# for i in range(4):
+#     print(f"--- Dados da {i+1}ª pessoa ---")
+#     altura = float(input("Digite a altura (em metros, ex: 1.75): "))
+#     idade = int(input("Digite a idade: "))
+    
+#     # Armazena os dados como um dicionário (ou tupla) dentro da lista
+#     dados_pessoa = {"altura": altura, "idade": idade}
+#     pessoas.append(dados_pessoa)
+
+# # Exibe a lista final com todos os dados salvos
+# print("\nLista de pessoas cadastradas:")
+# print(pessoas)
+
+# lista_de_compras = []
+
+# lista_de_compras.append("Arroz")
+# lista_de_compras.append("Feijão")
+# lista_de_compras.append("Macarrão")
+# lista_de_compras.append("Leite")
+# lista_de_compras.append("Café")
+
+# print(lista_de_compras)
+
+# def verifica_colchetes(expressao):
+#     pilha = []
+    
+#     for caractere in expressao:
+#         if caractere == '[':
+#             pilha.append(caractere)
+#         elif caractere == ']':
+#             if not pilha:
+#                 return False
+#             pilha.pop()
+            
+#     return len(pilha) == 0
+
+# expressao_valida = "v = [1, 2, [3, 4]]"
+# expressao_invalida = "v = [1, 2, [3, 4]"
+
+# print(f"Expressão 1 é válida? {verifica_colchetes(expressao_valida)}")   
+# print(f"Expressão 2 é válida? {verifica_colchetes(expressao_invalida)}") 
