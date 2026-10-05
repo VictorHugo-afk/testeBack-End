@@ -1,0 +1,7 @@
+# Dicionários
+# Diferentes das tuplas e das listas os dicionários podem utilizar palavras em vez de itens números para identificar os itens de uma lista. Os dicionarios são identificados por {}. Por exemplo podemos criar dados = {nome: 'pedro', idade: 25} o nome é o primeiro índice e a idade é o segundo. Para mostrar esses dados poderia fazer da seguinte forma, print(dados['nome']), isso geraria o resultado pedro. Se trocasse nome por idade o resultado seria 25.
+
+# Para adicionar novos dados o comando append não funciona para dicionários. Para adicionar fazemos o nome do dicionário. + nome do identificador + valor a ser adicionado. Por exemplo dados.['sexo'] = 'm'. Para remover um dado podemos utilizar o comando del. Por exemplo: del dados ['idade'], elimina o elemento idade e o valor 25. Para retornar todos os valores do dicionário podemos utilizar um print(dados.values()) vai mostrar pedro 25 m, agora se usar um print(dados.keys()) vai mostrar nome idade e sexo. Para mostrar os values e a keys fazemos um print(dados.items())
+
+# Podemos usar esses conceitos dentro de laços de repetição. Por exemplo podemos fazer o for k,v in filme.items():
+# print(f O (k) é (v)'). Nesse exemplo o laço vai ler cada keys e cada valor na sequência da lista filmes. Podemos criar uma lista onde cada item vai ser um dicionário. Por exemplo esse dicionário que criamos poderia ser o meu elemento zero e outros filmes como outros elementos da lista. Um exemplo seria, print locadora[0][ano] onde o zeroo
